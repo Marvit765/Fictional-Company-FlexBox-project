@@ -1,0 +1,165 @@
+html {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Header */
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 110px;
+    padding: 30px;
+    /*position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: 3px solid white;
+    width: 97%; */
+}
+
+.logo {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+
+.logo-title {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 3rem;
+    padding-left: 1%;
+}
+
+.logo-img {
+    max-height: 240px;
+    margin-left: -15%;
+}
+
+nav li {
+    color:white;
+    font-size: 1.5rem;
+    display:inline;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.home {
+   height: 1000px; 
+   margin-top: 5px;
+}
+
+.main-background {
+    height: 70%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/main-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(238, 98, 5);
+    text-shadow: 1px 0 0 #fff, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-background h1, h2 {
+    margin: 0;
+}
+
+.mission-paragraph {
+    margin: 2.5rem 33%;
+    display: flex;
+    text-align: center;
+    font-style: oblique;
+}
+
+.menu {
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+
+.burger-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.burger {
+    width: 450px;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    margin: 0 1%;
+}
+
+.burger img {
+    min-height: 0;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+.member {
+    margin: 2% auto;
+    width: 20%;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    margin: 0 1%;
+}
+
+.member img {
+    min-height: 0;
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 5px;
+}
